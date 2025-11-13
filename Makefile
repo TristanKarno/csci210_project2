@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-g -Wall -std=c11
 DEPS = types.h
-OBJ = otherCommands.o mkdirSplitpath.o 
+OBJ = otherCommands_mac_arm64.o mkdirSplitpath.o 
 
 .DEFAULT_GOAL := main
 
